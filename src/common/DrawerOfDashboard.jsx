@@ -34,16 +34,6 @@ const DrawerOfDashboard = ({ open, menuItems, location }) => {
     return (
       <Drawer variant="permanent" open={open} >
         <div style={{ width: "235px" }}>
-          {/* <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              height: "100px",
-            }}
-          >
-            <div className="rectangleInClassDashboard"></div>
-          </div> */}
           <Divider />
           <div className="navList">
             <List component="nav">

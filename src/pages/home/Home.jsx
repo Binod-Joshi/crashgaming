@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
+import ManualAutoFullDiv from "../dashboardcomponents/ManualAutoDiv"
+
 const Home = () => {
 
   return (
     <>
       <div className="navHeader">
-        <h1>Home</h1>
-      </div>
-      <div style={{marginbuttom:"13px"}}>
+        <ManualAutoFullDiv/>
       </div>
     </>
   );

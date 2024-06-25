@@ -25,7 +25,8 @@ import { PiNotepadBold } from "react-icons/pi";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 import ListIcon from "@mui/icons-material/List";
 import DrawerOfDashboard from "../common/DrawerOfDashboard";
-import Home from "./components/Home";
+import Home from "../pages/home/Home"
+import { Calculate } from "@mui/icons-material";
 
 const Dashboard = () => {
   const location = useLocation();
@@ -49,7 +50,7 @@ const Dashboard = () => {
   ];
   return (
     <>
-      <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "flex",backgroundColor:"#1D1F23" }}>
         <CssBaseline />
 
         <DrawerOfDashboard
@@ -74,12 +75,11 @@ export default Dashboard;
 const styles = {
   boxStyled: {
     backgroundColor: (theme) =>
-      theme.palette.mode === "light"
-        ? theme.palette.grey[100]
-        : theme.palette.grey[900],
+      theme.palette.mode === "#1D1F23",
     flexGrow: 1,
-    height: "100vh",
+    height: "calc(100vh - 70px)",
     overflow: "auto",
+    width:"100vw"
   },
   toolBarStyled: {
     display: "flex",

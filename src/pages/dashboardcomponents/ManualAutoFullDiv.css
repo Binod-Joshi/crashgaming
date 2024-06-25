@@ -1,0 +1,134 @@
+.manualAutoOuterDiv {
+  display: flex;
+  padding-left: 10px;
+  width: 300px;
+  background-color: #26272b;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.manualAutoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 280px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #1d1f23;
+}
+.notClicked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 44px;
+  border-radius: 100px;
+  color: #ffffff;
+}
+.clickedone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 44px;
+  border-radius: 100px;
+  background-color: #484949;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.7px;
+  color: #ffffff;
+}
+.belowClickedDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.5px;
+}
+.firstInputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 280px;
+    background: #2F3034;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.firstInput{
+    height: 40px;
+    width: 69%;
+    border: none;
+    border-radius: 5px;
+}
+.firstInputSideData{
+    display: flex;
+    justify-content: space-around;
+    width: 28%;
+}
+.betButton{
+    width: 280px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #EB7D2D;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.belowBetDiv{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-direction: column;
+}
+.flexContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 17px;
+  }
+  
+  .boldText {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.7px;
+  }
+  
+  .textWhite {
+    color: #ffffff;
+    margin-right: 10px; /* Example spacing between elements */
+  }
+  
+  .textGreen {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.7px;
+    color: #13EF00;
+  }
+.lastDivOfManualAuto{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1D1F23;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.lastManualData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.5px;
+    color: #FFFFFF ;
+    gap: 3px;
+}

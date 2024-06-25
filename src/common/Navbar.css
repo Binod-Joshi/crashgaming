@@ -1,0 +1,75 @@
+.navbar {
+  display: flex;
+  height: 70px;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 45px;
+  flex-direction: row;
+}
+
+.logo {
+  color: white;
+  margin-right: 20px;
+}
+
+.brand-name {
+  color: white;
+  flex-grow: 1;
+  height: 29px;
+  width: 109px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.loginbutton {
+  height: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.7px;
+  color: #ffffff;
+}
+.registerbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.7px;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #EB7D2D;
+
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    width: 100vw;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .brand-name {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
