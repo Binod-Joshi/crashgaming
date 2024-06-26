@@ -26,6 +26,7 @@
   height: 44px;
   border-radius: 100px;
   color: #ffffff;
+  cursor: pointer;
 }
 .clickedone {
   display: flex;
