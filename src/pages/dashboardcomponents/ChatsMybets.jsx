@@ -21,7 +21,7 @@ const ChatsMybets = () => {
             <span style={{color:"white"}}>Deentlo evaru sampaadincharu</span>
         </p>
         <div style={{display:"flex",alignItems:"center"}}>
-            <input type="text" name="" id="" className='firstInput'  style={{width:"95%"}}/>
+            <input type="text" name="" id="" className='firstInput'  style={{width:"95%",height:"35px",marginBottom:"5px"}}/>
             <span className='sendFromLowerDiv'><IoIosSend/></span>
         </div>
       </div>

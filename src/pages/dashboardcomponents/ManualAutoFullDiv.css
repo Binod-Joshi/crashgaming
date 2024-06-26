@@ -4,7 +4,7 @@
   padding-left: 10px;
   width: 300px;
   background-color: #26272b;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 20px;
   border-radius: 8px;
   flex-direction: column;
@@ -133,6 +133,15 @@
     justify-content: space-around;
     background-color: #1D1F23;
 }
+.lastDivOfManualAuto2{
+  height: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1D1F23;
+}
 .lastManualData {
     display: flex;
     align-items: center;
@@ -176,7 +185,8 @@
   align-items: center;
   justify-content: center;
   font-size: 30px;
-  height: 40px;
+  height: 35px;
+  margin-bottom: 5px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   cursor: pointer;

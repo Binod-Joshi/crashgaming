@@ -12,7 +12,9 @@ const ManualAutoFullDiv = () => {
   const handleManualOrAuto = (data) => {
     setSelected(data);
   };
-  const data = [{ person: "Hidden", multiData: "1.4", profit: "333.34" },{ person: "Hidden", multiData: "1.4", profit: "333.34" }];
+  const data = [{ person: "Hidden", multiData: "1.4", profit: "333.34" },
+  // { person: "Hidden", multiData: "1.4", profit: "333.34" }
+  ];
   return (
     <div className="manualAutoOuterDiv">
       <div className="manualAutoDiv">

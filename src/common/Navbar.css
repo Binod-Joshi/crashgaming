@@ -53,23 +53,9 @@
 
 @media (max-width: 500px) {
   .navbar {
-    width: 100vw;
-    flex-direction: column;
-    height: auto;
+    width: 100%;
+    /* flex-direction: column; */
+    /* height: auto; */
   }
-
-  .logo {
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-
-  .brand-name {
-    text-align: center;
-    margin-bottom: 10px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
-  }
+  
 }

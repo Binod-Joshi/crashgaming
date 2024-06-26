@@ -1,0 +1,21 @@
+.graphOuterDiv {
+  height: 68vh;
+  margin-top: 5px;
+  border-radius: 8px;
+  background-color: #26272B !important;
+  width: calc(100vw - 638px);
+}
+.topDivOfGraph{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.areaChart {
+    height: calc(100% - 60px) !important;
+    width: calc(100% - 100px) !important;
+}
