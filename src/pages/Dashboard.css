@@ -77,8 +77,53 @@
     margin-top: 5px;
     margin-left: 20px;
     border-radius: 5px;
+}
 
-    
+/* CreateForm style */
+.formDivOuter {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+}
+.innerFormDiv{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  background-color: #1D1F23;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 8px;
+
+}
+.createNewAccountDiv{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.5px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.createFormLabel{
+  height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #FFFFFF;
+  opacity: 0.87;
+}
+.createForm {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.firstInputOfCreate{
+  height: 40px;
+  width: 89%;
+  border: none;
+  border-radius: 5px;
 }
 @media (min-width: 0px) {
   .css-1dd0suk-MuiToolbar-root {

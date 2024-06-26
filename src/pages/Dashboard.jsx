@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Box, CssBaseline } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
-import HomeIcon from '../assets/drawersicons/home.svg';
+import HomeIcon from "../assets/drawersicons/home.svg";
 import BackRoll from "../assets/drawersicons/bankroll.svg";
-import BackTesting from "../assets/drawersicons/backtesting.svg"
+import BackTesting from "../assets/drawersicons/backtesting.svg";
 import Stats from "../assets/drawersicons/stats.svg";
-import LeaderBoard from "../assets/drawersicons/leaderboard.svg"
-import Help from "../assets/drawersicons/help.svg"
+import LeaderBoard from "../assets/drawersicons/leaderboard.svg";
+import Help from "../assets/drawersicons/help.svg";
 
 import {
   BrowserRouter as Router,
@@ -25,7 +25,7 @@ import { PiNotepadBold } from "react-icons/pi";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 import ListIcon from "@mui/icons-material/List";
 import DrawerOfDashboard from "../common/DrawerOfDashboard";
-import Home from "../pages/home/Home"
+import Home from "../pages/home/Home";
 import { Calculate } from "@mui/icons-material";
 
 const Dashboard = () => {
@@ -50,7 +50,7 @@ const Dashboard = () => {
   ];
   return (
     <>
-      <Box sx={{ display: "flex",backgroundColor:"#1D1F23" }}>
+      <Box sx={{ display: "flex", backgroundColor: "#1D1F23" }}>
         <CssBaseline />
 
         <DrawerOfDashboard
@@ -60,7 +60,7 @@ const Dashboard = () => {
         />
         <Box component="main" sx={styles.boxStyled}>
           <Routes>
-            <Route path="/" element={<Home/>} />
+            <Route path="/" element={<Home />} />
             {/* <Route path="/addStudent" element={<AddStudent />} /> */}
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
@@ -74,8 +74,7 @@ export default Dashboard;
 
 const styles = {
   boxStyled: {
-    backgroundColor: (theme) =>
-      theme.palette.mode === "#1D1F23",
+    backgroundColor: (theme) => theme.palette.mode === "#1D1F23",
     flexGrow: 1,
     height: "calc(100vh - 70px)",
     overflow: "auto",
