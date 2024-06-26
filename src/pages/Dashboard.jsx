@@ -79,7 +79,7 @@ const styles = {
     flexGrow: 1,
     height: "calc(100vh - 70px)",
     overflow: "auto",
-    width:"100vw"
+    // width:"100%"
   },
   toolBarStyled: {
     display: "flex",
