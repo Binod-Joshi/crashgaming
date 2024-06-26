@@ -12,7 +12,7 @@ const ManualAutoFullDiv = () => {
   const handleManualOrAuto = (data) => {
     setSelected(data);
   };
-  const data = [{ person: "Hidden", multiData: "1.4", profit: "333.34" }];
+  const data = [{ person: "Hidden", multiData: "1.4", profit: "333.34" },{ person: "Hidden", multiData: "1.4", profit: "333.34" }];
   return (
     <div className="manualAutoOuterDiv">
       <div className="manualAutoDiv">
@@ -34,8 +34,20 @@ const ManualAutoFullDiv = () => {
         <p>$0.00</p>
       </div>
       <div className="firstInputDiv">
-        <input className="firstInput" type="text" />
-        <img src={Tron} alt="Tron" />
+      <input
+        type="text"
+        // value={inputValue}
+        // onChange={handleInputChange}
+        placeholder="Enter text here"
+        style={{
+          backgroundImage: `url(${Tron})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'right 10px',
+          padding: '10px 20px 10px 40px',
+          border: 'none',
+        }}
+        className="firstInput"
+      />
         <div className="firstInputSideData">
           <span>1/2</span>
           <span>|</span>
@@ -45,7 +57,6 @@ const ManualAutoFullDiv = () => {
       <p className="belowClickedDiv">Cashout At</p>
       <div className="firstInputDiv">
         <input className="firstInput" type="text" />
-        <img src={Tron} alt="Tron" />
         <div className="firstInputSideData">
           <span>
             <FaCaretDown />
@@ -61,8 +72,15 @@ const ManualAutoFullDiv = () => {
         <p>$0.00</p>
       </div>
       <div className="firstInputDiv">
-        <input className="firstInput" style={{ width: "96%" }} type="text" />
-        <img src={Tron} alt="Tron" />
+        <input className="firstInput" style={{
+          width:"98%",
+          backgroundImage: `url(${Tron})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'right 10px',
+          padding: '10px 20px 10px 40px',
+          border: 'none',
+        }} type="text" />
+
       </div>
       <button className="betButton">BET</button>
       <div className="belowBetDiv">
@@ -114,7 +132,7 @@ const ManualAutoFullDiv = () => {
       </div>
       <div className="lastDivOfManualAuto">
       {data.map((item, index) => (
-        <div key={index} className="lastDivOfManualAuto" style={{display:"flex",flexDirection:"row"}}>
+        <div key={index} className="lastDivOfManualAuto1">
           <p className="lastManualData">
             <span>
               <IoPerson />
