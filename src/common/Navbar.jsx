@@ -8,8 +8,8 @@ const Navbar = ({handleShowForm}) => {
       <img src={Logo} alt ="logo" className="logo" style={{marginRight:"20px"}}/>
       <div className="brand-name">BUSTATRX</div>
       <div className="nav-links">
-        <div className="loginbutton">LOGIN</div>
-        <div className="registerbutton" onClick={() => handleShowForm(true)}>REGISTER</div>
+        <button className="loginbutton">LOGIN</button>
+        <button className="registerbutton" onClick={() => handleShowForm(true)}>REGISTER</button>
       </div>
     </div>
   );

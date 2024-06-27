@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Emaill from "../../assets/createForm/email.svg";
 import Passwordd from "../../assets/createForm/password.svg";
 import Professionn from "../../assets/createForm/profession.svg";
-import Usernamee from "../../assets/createForm/username.svg;"
+import Usernamee from "../../assets/createForm/username.svg"
 
 const CreateForm = ({handleShowForm}) => {
   return (
@@ -29,35 +29,35 @@ const CreateForm = ({handleShowForm}) => {
             <div>
               <label className="createFormLabel">Email</label>
               <div className="firstInputDiv">
-                <img src={Emaill} alt="" />
+                <img src={Emaill} style = {{margin:"0 3px"}} alt="" />
                 <input className="firstInputOfCreate" type="email" required />
               </div>
             </div>
             <div>
               <label className="createFormLabel">Username</label>
               <div className="firstInputDiv">
-                <img src={Usernamee} alt="" />
+                <img src={Usernamee} style = {{margin:"0 5px"}} alt="" />
                 <input className="firstInputOfCreate" type="text" required />
               </div>
             </div>
             <div>
               <label className="createFormLabel">Profession</label>
               <div className="firstInputDiv">
-                <img src={Professionn} alt="" />
+                <img src={Professionn} style = {{margin:"0 5px"}} alt="" />
                 <input className="firstInputOfCreate" type="text" required />
               </div>
             </div>
             <div>
-              <label className="createFormLabel">Password</label>
+              <label className="createFormLabel" >Password</label>
               <div className="firstInputDiv">
-                <img src={Passwordd} alt="" />
+                <img src={Passwordd} style = {{margin:"0 5px"}} alt="" />
                 <input className="firstInputOfCreate" type="password" required />
               </div>
             </div>
             <div>
               <label className="createFormLabel">Confirm Password</label>
               <div className="firstInputDiv">
-                <img src={Passwordd} alt="" />
+                <img src={Passwordd} style = {{margin:"0 5px"}} alt="" />
                 <input
                   className="firstInputOfCreate"
                   type="password"
